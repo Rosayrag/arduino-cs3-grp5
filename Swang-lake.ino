@@ -27,6 +27,7 @@ int F#5 = 740;
 int E4 = 330;
 int F5 = 699;
 int D#5 = 622;
+int C4 = 262;
 int noNote = 100;
 int tempo = 1;
 
