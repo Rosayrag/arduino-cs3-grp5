@@ -33,6 +33,7 @@ int tempo = 1;
 }
 void setup()
 {
+// Rosayra code
 for (int i = 0; i < 3; i++){
     // Measure 1, 2 seconds
     // C4
@@ -81,7 +82,7 @@ for (int i = 0; i < 3; i++){
 }
  
 void loop(){
-
+// Smruthi coode
   for (int i = 0; i < 1; i++)
 {
     tone(output,F5);
@@ -172,5 +173,25 @@ void loop(){
 }
 
 // Darlene code here
+for (int i = 0; i < 3; i++){
+    // Measure 1, 2 seconds
+    // C4
+    tone(output, B4);    // tone(outputPin,frequency)
+      delay(half);  //  delay(milliseconds) 
+    noTone(output);
+      delay(100);
+    // C4
+    tone(output, E4);   
+      delay(eighth);   
+    noTone(output);  
+      delay(100);  
+    // Measure 2, 2 seconds
+    // C4
+    tone(output, F#4);    
+      delay(eighth);  
+    // END
+    noTone(output); // stop playing
+}
+
   
 }
