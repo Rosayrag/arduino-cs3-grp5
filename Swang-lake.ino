@@ -27,6 +27,8 @@ int F#5 = 740;
 int E4 = 330;
 int F5 = 699;
 int D#5 = 622;
+int noNote = 100;
+int tempo = 1;
 
 }
 void setup()
@@ -78,7 +80,96 @@ for (int i = 0; i < 3; i++){
 }
 }
  
-void loop()
+void loop(){
+
+  for (int i = 0; i < 1; i++)
 {
+    tone(output,F5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,C5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,F5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,E5);
+      delay(dotquarter);
+    noTone(output);
+      delay(noNote);
+
+  if (i = 0)
+  {
+    tone(output,D#5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,B4);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,D#5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,E5);
+      delay(dotquarter);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,E5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+  }
+
+  if (i = 1)
+  {
+    tone(output,E5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,D#5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,B4);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,D#5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,E5);
+      delay(quarter);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,E5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+  }
+
+    tone(output,F5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);  
+}
+
   
 }
