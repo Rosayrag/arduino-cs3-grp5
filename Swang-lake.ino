@@ -190,6 +190,178 @@ for (int i = 0; i < 3; i++){
     // C4
     tone(output, F#4);    
       delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, A4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, B4);    
+      delay(dotquarter);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+    
+    tone(output, B4);    
+      delay(dotquarter);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, B4);    
+      delay(dotquarter);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, C4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(half);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, A4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+  
+  tone(output, F#4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, B4);    
+      delay(half);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, F#4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, A4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, B4);    
+      delay(dotquarter);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, B4);    
+      delay(dotquarter);  
+    noTone(output)
+      delay(100)
+    
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, B4);    
+      delay(dotquarter);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, C4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(dothalf);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(quarter);  
+    noTone(output)
+      delay(100)
     // END
     noTone(output); // stop playing
 }
