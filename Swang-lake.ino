@@ -21,17 +21,17 @@ void setup()
   int eigth = 500;
   int dotquarter = 1500;
   int quarter = 1000;
-  int F#4 = 370;
+  int Fs4 = 370;
   int G4 = 392;
   int A4 = 440;
   int B4 = 494;
   int C5 = 523;
   int D5 = 587;
   int E5 = 659;
-  int F#5 = 740;
+  int Fs5 = 740;
   int E4 = 330;
   int F5 = 699;
-  int D#5 = 622;
+  int Ds5 = 622;
   int C4 = 262;
   int noNote = 100;
 }
@@ -441,7 +441,7 @@ for (int i = 0; i < 1; i++)
 
 }
  
-// Smruthi coode
+// Smruthi code
   for (int i = 0; i < 1; i++)
 {
     tone(output,F5);
@@ -466,7 +466,7 @@ for (int i = 0; i < 1; i++)
 
   if (i = 0)
   {
-    tone(output,D#5);
+    tone(output,Ds5);
       delay(eighth);
     noTone(output);
       delay(noNote);
@@ -476,7 +476,7 @@ for (int i = 0; i < 1; i++)
     noTone(output);
       delay(noNote);
 
-    tone(output,D#5);
+    tone(output,Ds5);
       delay(eighth);
     noTone(output);
       delay(noNote);
@@ -499,7 +499,7 @@ for (int i = 0; i < 1; i++)
     noTone(output);
       delay(noNote);
 
-    tone(output,D#5);
+    tone(output,Ds5);
       delay(eighth);
     noTone(output);
       delay(noNote);
@@ -509,7 +509,7 @@ for (int i = 0; i < 1; i++)
     noTone(output);
       delay(noNote);
 
-    tone(output,D#5);
+    tone(output,Ds5);
       delay(eighth);
     noTone(output);
       delay(noNote);
@@ -573,14 +573,14 @@ for (int i = 0; i < 1; i++)
 
   if (i = 1)
   {
-    tone(output,F#5);
+    tone(output,Fs5);
       delay(quarter);
     tone(output,F5);
       delay(quarter);
     noTone(output);
       delay(noNote);
 
-    tone(output,F#5);
+    tone(output,Fs5);
       delay(half);
     noTone(output);
       delay(noNote);
