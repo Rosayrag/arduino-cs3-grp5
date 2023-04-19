@@ -34,6 +34,199 @@ int tempo = 1;
 }
 void setup()
 {
+
+  // Darlene code here
+for (int i = 0; i < 1; i++){
+    // Measure 1, 2 seconds
+    // C4
+    tone(output, B4);    // tone(outputPin,frequency)
+      delay(half);  //  delay(milliseconds) 
+    noTone(output);
+      delay(100);
+    // C4
+    tone(output, E4);   
+      delay(eighth);   
+    noTone(output);  
+      delay(100);  
+    // Measure 2, 2 seconds
+    // C4
+    tone(output, F#4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, A4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, B4);    
+      delay(dotquarter);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+    
+    tone(output, B4);    
+      delay(dotquarter);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, B4);    
+      delay(dotquarter);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, C4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(half);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, A4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+  
+  tone(output, F#4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, B4);    
+      delay(half);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, F#4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, A4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, B4);    
+      delay(dotquarter);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, B4);    
+      delay(dotquarter);  
+    noTone(output)
+      delay(100)
+    
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, B4);    
+      delay(dotquarter);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, C4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(dothalf);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(quarter);  
+    noTone(output)
+      delay(100)
+    // END
+    noTone(output); // stop playing
+
 // Rosayra code
 for (int i = 0; i < 1; i++)
 {
@@ -329,14 +522,73 @@ void loop(){
       delay(eighth);
     noTone(output);
       delay(noNote);
-  }
+  }   
+}
+
+  for (int i = 0; i < 1; i++)
+{
+    tone(output,F5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,C5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
 
     tone(output,F5);
       delay(eighth);
     noTone(output);
-      delay(noNote);  
+      delay(noNote);
+
+    tone(output,F5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,C5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,F5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+  if (i = 0)
+  {
+    tone(output,C5);
+      delay(half);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,B4);
+      delay(half);
+    noTone(output);
+      delay(noNote);
+  }
+
+  if (i = 1)
+  {
+    tone(output,F#5);
+      delay(quarter);
+    tone(output,F5);
+      delay(quarter);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,F#5);
+      delay(half);
+    noTone(output);
+      delay(noNote);
+  }  
+
 }
 
+<<<<<<< HEAD
+=======
 // Darlene code here
 for (int i = 0; i < 1; i++){
     // Measure 1, 2 seconds
@@ -348,7 +600,7 @@ for (int i = 0; i < 1; i++){
     // C4
     tone(output, E4);   
       delay(eighth);   
-    noTone(output);  
+    noTone(output);
       delay(100);  
     // Measure 2, 2 seconds
     // C4
@@ -528,6 +780,7 @@ for (int i = 0; i < 1; i++){
       delay(100)
     // END
     noTone(output); // stop playing
+>>>>>>> 558810f063c895d0be2bb964988d84822f4ad97d
 }
 
 // Elena code starts here
