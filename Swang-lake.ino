@@ -329,12 +329,69 @@ void loop(){
       delay(eighth);
     noTone(output);
       delay(noNote);
-  }
+  }   
+}
+
+  for (int i = 0; i < 1; i++)
+{
+    tone(output,F5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,C5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
 
     tone(output,F5);
       delay(eighth);
     noTone(output);
-      delay(noNote);  
+      delay(noNote);
+
+    tone(output,F5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,C5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,F5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+  if (i = 0)
+  {
+    tone(output,C5);
+      delay(half);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,B4);
+      delay(half);
+    noTone(output);
+      delay(noNote);
+  }
+
+  if (i = 1)
+  {
+    tone(output,F#5);
+      delay(quarter);
+    tone(output,F5);
+      delay(quarter);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,F#5);
+      delay(half);
+    noTone(output);
+      delay(noNote);
+  }  
+
 }
 
 // Darlene code here
@@ -348,7 +405,7 @@ for (int i = 0; i < 3; i++){
     // C4
     tone(output, E4);   
       delay(eighth);   
-    noTone(output);  
+    noTone(output);
       delay(100);  
     // Measure 2, 2 seconds
     // C4
