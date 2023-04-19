@@ -1,4 +1,4 @@
-{
+
 /*
 Notes chart:
   C     C#     D     Eb   E     F     F#    G     G#    A     Bb    B
@@ -12,29 +12,32 @@ Notes chart:
 7 2093  2217  2349  2489  2637  2794  2960  3136  3322  3520  3729  3951
 8 4186  4435  4699  4978  5274  5588  5920  6272  6645  7040  7459  7902
 */
-int half = 2000;
-int eigth = 500;
-int dotquarter = 1500;
-int quarter = 1000;
-int F#4 = 370;
-int G4 = 392;
-int A4 = 440;
-int B4 = 494;
-int C5 = 523;
-int D5 = 587;
-int E5 = 659;
-int F#5 = 740;
-int E4 = 330;
-int F5 = 699;
-int D#5 = 622;
-int C4 = 262;
-int noNote = 100;
-int tempo = 1;
 
-}
+
 void setup()
 {
+  int output = 13;
+  int half = 2000;
+  int eigth = 500;
+  int dotquarter = 1500;
+  int quarter = 1000;
+  int F#4 = 370;
+  int G4 = 392;
+  int A4 = 440;
+  int B4 = 494;
+  int C5 = 523;
+  int D5 = 587;
+  int E5 = 659;
+  int F#5 = 740;
+  int E4 = 330;
+  int F5 = 699;
+  int D#5 = 622;
+  int C4 = 262;
+  int noNote = 100;
+}
 
+void loop()
+{
   // Darlene code here
 for (int i = 0; i < 1; i++){
     // Measure 1, 2 seconds
@@ -226,7 +229,7 @@ for (int i = 0; i < 1; i++){
       delay(100)
     // END
     noTone(output); // stop playing
-
+}
 // Rosayra code
 for (int i = 0; i < 1; i++)
 {
@@ -437,9 +440,7 @@ for (int i = 0; i < 1; i++)
 
 
 }
-}
  
-void loop(){
 // Smruthi coode
   for (int i = 0; i < 1; i++)
 {
@@ -782,8 +783,8 @@ for (int i = 0; i < 3; i++){
     noTone(output); // stop playing
 >>>>>>> 558810f063c895d0be2bb964988d84822f4ad97d
 }
+}
 
 // Elena code starts here
 
 
-}
