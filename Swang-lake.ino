@@ -53,7 +53,7 @@ for (int i = 0; i < 1; i++){
       delay(100);  
     // Measure 2, 2 seconds
     // C4
-    tone(output, F#4);    
+    tone(output, Fs4);    
       delay(eighth);  
     noTone(output)
       delay(100)
@@ -138,7 +138,7 @@ for (int i = 0; i < 1; i++){
     noTone(output)
       delay(100)
   
-  tone(output, F#4);    
+  tone(output, Fs4);    
       delay(eighth);  
     noTone(output)
       delay(100)
@@ -153,7 +153,7 @@ for (int i = 0; i < 1; i++){
     noTone(output)
       delay(100)
 
-    tone(output, F#4);    
+    tone(output, Fs4);    
       delay(eighth);  
     noTone(output)
       delay(100)
@@ -233,7 +233,7 @@ for (int i = 0; i < 1; i++){
 // Rosayra code
 for (int i = 0; i < 1; i++)
 {
-    tone(output, F#4);   
+    tone(output, Fs4);   
       delay(eighth);   
     noTone(output);
       delay(noNote);
@@ -308,7 +308,7 @@ for (int i = 0; i < 1; i++)
     noTone(output);
       delay(noNote);
 
-      tone(output, F#5);   
+      tone(output, Fs5);   
       delay(eighth);   
     noTone(output);
       delay(noNote);
@@ -328,7 +328,7 @@ for (int i = 0; i < 1; i++)
     noTone(output);
       delay(noNote);
 
-      tone(output, F#4);   
+      tone(output, Fs4);   
       delay(eighth);   
     noTone(output);
       delay(noNote);
@@ -338,7 +338,7 @@ for (int i = 0; i < 1; i++)
     noTone(output);
       delay(noNote);
 
-      tone(output, F#4);   
+      tone(output, Fs4);   
       delay(eighth);   
     noTone(output);
       delay(noNote);
@@ -433,7 +433,7 @@ for (int i = 0; i < 1; i++)
     noTone(output);
       delay(noNote);
 
-      tone(output, D#5);   
+      tone(output, Ds5);   
       delay(eighth);   
     noTone(output);
       delay(noNote);
@@ -605,7 +605,7 @@ for (int i = 0; i < 1; i++){
       delay(100);  
     // Measure 2, 2 seconds
     // C4
-    tone(output, F#4);    
+    tone(output, Fs4);    
       delay(eighth);  
     noTone(output)
       delay(100)
@@ -690,7 +690,7 @@ for (int i = 0; i < 1; i++){
     noTone(output)
       delay(100)
   
-  tone(output, F#4);    
+  tone(output, Fs4);    
       delay(eighth);  
     noTone(output)
       delay(100)
@@ -705,7 +705,7 @@ for (int i = 0; i < 1; i++){
     noTone(output)
       delay(100)
 
-    tone(output, F#4);    
+    tone(output, Fs4);    
       delay(eighth);  
     noTone(output)
       delay(100)
