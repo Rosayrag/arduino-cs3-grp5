@@ -338,7 +338,7 @@ void loop(){
 }
 
 // Darlene code here
-for (int i = 0; i < 3; i++){
+for (int i = 0; i < 1; i++){
     // Measure 1, 2 seconds
     // C4
     tone(output, B4);    // tone(outputPin,frequency)
