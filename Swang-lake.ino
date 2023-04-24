@@ -13,27 +13,28 @@
   8 4186  4435  4699  4978  5274  5588  5920  6272  6645  7040  7459  7902
   */
   int half = 1666;
+  int halfnote = 3332; 
   int eighth = 417;
   int dotquarter = 1500;
   int quarter = 833;
   int sixteenth = 208;
   int F4 = 370;
   int G4 = 392;
-  int A4 = 440;
+  int a4 = 440;
   int B4 = 494;
   int C5 = 523;
   int D5 = 587;
   int E5 = 659;
   int F5 = 740;
   int E4 = 330;
-  int F5 = 699;
-  int D5 = 622;
   int C4 = 262;
   int noNote = 100;
   int tempo = 1;
+  int output = 13;
 }
 void setup()
 {
+<<<<<<< HEAD
   // Rosayra code
   for (int i = 0; i < 3; i++)
   {
@@ -81,6 +82,217 @@ void setup()
     // END
     noTone(output); // stop playing
   }
+=======
+// Rosayra code
+for (int i = 0; i < 1; i++)
+{
+    tone(output, F#4);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+    
+    tone(output, G4);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote); 
+    
+    tone(output, A4);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote); 
+    
+    tone(output, B4);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);  
+    
+    tone(output, C5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+    
+    tone(output, D5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote); 
+     
+    tone(output, C5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+    
+    tone(output, B4);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote); 
+    
+    tone(output, C5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote); 
+    
+    tone(output, D5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote); 
+  
+  tone(output, E5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, D5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, C5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, D5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, E5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, F#5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, E5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, B4);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, G4);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, F#4);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+    
+    tone(output, E4);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, F#4);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+      
+      tone(output, G4);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, A4);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, B4);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, C5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, D5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, C5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, B4);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, C5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, D5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, E5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, D5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, C5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, D5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, E5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, F5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, C5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, F5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, E5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+      tone(output, D#5);   
+      delay(eighth);   
+    noTone(output);
+      delay(noNote);
+
+
+>>>>>>> 5aad7e55bb61e973d13dd6f87429bc2fa3c94d29
 }
 
 void loop()
@@ -191,30 +403,218 @@ void loop()
     delay(100);
     // Measure 2, 2 seconds
     // C4
+<<<<<<< HEAD
     tone(output, F #4);
     delay(eighth);
+=======
+    tone(output, F#4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, A4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, B4);    
+      delay(dotquarter);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+    
+    tone(output, B4);    
+      delay(dotquarter);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, B4);    
+      delay(dotquarter);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, C4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(half);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, A4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+  
+  tone(output, F#4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, B4);    
+      delay(half);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, F#4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, A4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, B4);    
+      delay(dotquarter);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, B4);    
+      delay(dotquarter);  
+    noTone(output)
+      delay(100)
+    
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, B4);    
+      delay(dotquarter);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, C4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(dothalf);  
+    noTone(output)
+      delay(100)
+
+    tone(output, E4);    
+      delay(quarter);  
+    noTone(output)
+      delay(100)
+>>>>>>> 5aad7e55bb61e973d13dd6f87429bc2fa3c94d29
     // END
     noTone(output); // stop playing
   }
 
   // Elena code starts here
-
-  for (int i = 0; i < 2; i++)
+for (int i = 0; i < 2; i++)
   {
     // Measure 1, 2 seconds
     // G4
     tone(output, G4);
+    pinMode (2, OUTPUT);
+    digitalWrite (2,HIGH);
     delay(eighth);
+    pinMode (2, OUTPUT);
+    digitalWrite (2,LOW);
     noTone(output);
     delay(100);
     // E4
     tone(output, E4);
+    pinMode (4, OUTPUT);
+    digitalWrite (4,HIGH);
     delay(eighth);
+    pinMode (4, OUTPUT);
+    digitalWrite (4,LOW);
     noTone(output);
     delay(100);
     // G4
-    tone(output, G4);
+      tone(output, G4);
+    pinMode (2, OUTPUT);
+    digitalWrite (2,HIGH);
     delay(eighth);
+    pinMode (2, OUTPUT);
+    digitalWrite (2,LOW);
     noTone(output);
     delay(100); // stop playing
   }
@@ -224,65 +624,113 @@ void loop()
     {
       // G4
       tone(output, G4);
+      pinMode (2, OUTPUT);
+      digitalWrite (2,HIGH);
       delay(sixteenth);
+      pinMode (2, OUTPUT);
+      digitalWrite (2,LOW);
       noTone(output);
       delay(100);
     }
     // F#4
     tone(output, F4);
+     pinMode (4, OUTPUT);
+    digitalWrite (4,HIGH);
     delay(sixteenth);
+     pinMode (4, OUTPUT);
+    digitalWrite (4,LOW);
     noTone(output); // stop playing
     delay(100);
     // F#4
-    tone(output, F4);
+   tone(output, F4);
+     pinMode (4, OUTPUT);
+    digitalWrite (4,HIGH);
     delay(sixteenth);
+     pinMode (4, OUTPUT);
+    digitalWrite (4,LOW);
     noTone(output); // stop playing
     delay(100);
   }
   {
     // G4
-    tone(output, G4);
-    delay(sixteenth);
-    noTone(output);
-    delay(100);
+  tone(output, G4);
+      pinMode (2, OUTPUT);
+      digitalWrite (2,HIGH);
+      delay(sixteenth);
+      pinMode (2, OUTPUT);
+      digitalWrite (2,LOW);
+      noTone(output);
+      delay(100);
     // G4
-    tone(output, G4);
-    delay(sixteenth);
-    noTone(output);
-    delay(100);
+  tone(output, G4);
+      pinMode (2, OUTPUT);
+      digitalWrite (2,HIGH);
+      delay(sixteenth);
+      pinMode (2, OUTPUT);
+      digitalWrite (2,LOW);
+      noTone(output);
+      delay(100);
     // G4
-    tone(output, G4);
-    delay(sixteenth);
-    noTone(output);
-    delay(100);
+ tone(output, G4);
+      pinMode (2, OUTPUT);
+      digitalWrite (2,HIGH);
+      delay(sixteenth);
+      pinMode (2, OUTPUT);
+      digitalWrite (2,LOW);
+      noTone(output);
+      delay(100);
     // G4
-    tone(output, G4);
-    delay(sixteenth);
-    noTone(output);
-    delay(100);
+ tone(output, G4);
+      pinMode (2, OUTPUT);
+      digitalWrite (2,HIGH);
+      delay(sixteenth);
+      pinMode (2, OUTPUT);
+      digitalWrite (2,LOW);
+      noTone(output);
+      delay(100);
     // F#4
     tone(output, F4);
+     pinMode (4, OUTPUT);
+    digitalWrite (4,HIGH);
     delay(sixteenth);
+     pinMode (4, OUTPUT);
+    digitalWrite (4,LOW);
     noTone(output); // stop playing
     delay(100);
     // F#4
     tone(output, F4);
+     pinMode (4, OUTPUT);
+    digitalWrite (4,HIGH);
     delay(sixteenth);
+     pinMode (4, OUTPUT);
+    digitalWrite (4,LOW);
     noTone(output); // stop playing
     delay(100);
     // F#4
-    tone(output, F4);
+   tone(output, F4);
+     pinMode (4, OUTPUT);
+    digitalWrite (4,HIGH);
     delay(sixteenth);
+     pinMode (4, OUTPUT);
+    digitalWrite (4,LOW);
     noTone(output); // stop playing
     delay(100);
     // F#4
-    tone(output, F4);
+   tone(output, F4);
+     pinMode (4, OUTPUT);
+    digitalWrite (4,HIGH);
     delay(sixteenth);
+     pinMode (4, OUTPUT);
+    digitalWrite (4,LOW);
     noTone(output); // stop playing
     delay(100);
     // C4
     tone(output, C4);
+    pinMode (2, OUTPUT);
+    digitalWrite (2,HIGH);
     delay(halfnote);
+    pinMode (2, OUTPUT);
+    digitalWrite (2,LOW);
     noTone(output); // stop playing
     delay(100);
   }
