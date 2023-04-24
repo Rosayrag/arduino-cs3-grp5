@@ -29,11 +29,11 @@ void setup()
   int D5 = 587;
   int E5 = 659;
   int Fs5 = 740;
-int E4 = 330;
-int F5 = 699;
+  int E4 = 330;
+  int F5 = 699;
   int Ds5 = 622;
-int C4 = 262;
-int noNote = 100;
+  int C4 = 262;
+  int noNote = 100;
 }
 
 void loop()
@@ -442,8 +442,7 @@ for (int i = 0; i < 1; i++)
 }
  
 // Smruthi code
-  for (int i = 0; i < 1; i++)
-{
+  for (int i = 0; i < 1; i++){
     tone(output,F5);
       delay(eighth);
     noTone(output);
@@ -588,7 +587,6 @@ for (int i = 0; i < 1; i++)
 
 }
 
-}
 }
 
 // Elena code starts here
