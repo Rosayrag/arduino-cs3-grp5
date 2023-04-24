@@ -636,157 +636,6 @@ for (int i = 0; i < 1; i++){
 <<<<<<< HEAD
   }
 
-  // Elena code starts here
-for (int i = 0; i < 2; i++)
-  {
-    // Measure 1, 2 seconds
-    // G4
-    tone(output, G4);
-    pinMode (2, OUTPUT);
-    digitalWrite (2,HIGH);
-    delay(eighth);
-    pinMode (2, OUTPUT);
-    digitalWrite (2,LOW);
-    noTone(output);
-    delay(100);
-    // E4
-    tone(output, E4);
-    pinMode (4, OUTPUT);
-    digitalWrite (4,HIGH);
-    delay(eighth);
-    pinMode (4, OUTPUT);
-    digitalWrite (4,LOW);
-    noTone(output);
-    delay(100);
-    // G4
-      tone(output, G4);
-    pinMode (2, OUTPUT);
-    digitalWrite (2,HIGH);
-    delay(eighth);
-    pinMode (2, OUTPUT);
-    digitalWrite (2,LOW);
-    noTone(output);
-    delay(100); // stop playing
-  }
-  for (int i = 0; i < 3; i++)
-  {
-    for (int f = 0; f < 6; f++)
-    {
-      // G4
-      tone(output, G4);
-      pinMode (2, OUTPUT);
-      digitalWrite (2,HIGH);
-      delay(sixteenth);
-      pinMode (2, OUTPUT);
-      digitalWrite (2,LOW);
-      noTone(output);
-      delay(100);
-    }
-    // F#4
-    tone(output, F4);
-     pinMode (4, OUTPUT);
-    digitalWrite (4,HIGH);
-    delay(sixteenth);
-     pinMode (4, OUTPUT);
-    digitalWrite (4,LOW);
-    noTone(output); // stop playing
-    delay(100);
-    // F#4
-   tone(output, F4);
-     pinMode (4, OUTPUT);
-    digitalWrite (4,HIGH);
-    delay(sixteenth);
-     pinMode (4, OUTPUT);
-    digitalWrite (4,LOW);
-    noTone(output); // stop playing
-    delay(100);
-  }
-  {
-    // G4
-  tone(output, G4);
-      pinMode (2, OUTPUT);
-      digitalWrite (2,HIGH);
-      delay(sixteenth);
-      pinMode (2, OUTPUT);
-      digitalWrite (2,LOW);
-      noTone(output);
-      delay(100);
-    // G4
-  tone(output, G4);
-      pinMode (2, OUTPUT);
-      digitalWrite (2,HIGH);
-      delay(sixteenth);
-      pinMode (2, OUTPUT);
-      digitalWrite (2,LOW);
-      noTone(output);
-      delay(100);
-    // G4
- tone(output, G4);
-      pinMode (2, OUTPUT);
-      digitalWrite (2,HIGH);
-      delay(sixteenth);
-      pinMode (2, OUTPUT);
-      digitalWrite (2,LOW);
-      noTone(output);
-      delay(100);
-    // G4
- tone(output, G4);
-      pinMode (2, OUTPUT);
-      digitalWrite (2,HIGH);
-      delay(sixteenth);
-      pinMode (2, OUTPUT);
-      digitalWrite (2,LOW);
-      noTone(output);
-      delay(100);
-    // F#4
-    tone(output, F4);
-     pinMode (4, OUTPUT);
-    digitalWrite (4,HIGH);
-    delay(sixteenth);
-     pinMode (4, OUTPUT);
-    digitalWrite (4,LOW);
-    noTone(output); // stop playing
-    delay(100);
-    // F#4
-    tone(output, F4);
-     pinMode (4, OUTPUT);
-    digitalWrite (4,HIGH);
-    delay(sixteenth);
-     pinMode (4, OUTPUT);
-    digitalWrite (4,LOW);
-    noTone(output); // stop playing
-    delay(100);
-    // F#4
-   tone(output, F4);
-     pinMode (4, OUTPUT);
-    digitalWrite (4,HIGH);
-    delay(sixteenth);
-     pinMode (4, OUTPUT);
-    digitalWrite (4,LOW);
-    noTone(output); // stop playing
-    delay(100);
-    // F#4
-   tone(output, F4);
-     pinMode (4, OUTPUT);
-    digitalWrite (4,HIGH);
-    delay(sixteenth);
-     pinMode (4, OUTPUT);
-    digitalWrite (4,LOW);
-    noTone(output); // stop playing
-    delay(100);
-    // C4
-    tone(output, C4);
-    pinMode (2, OUTPUT);
-    digitalWrite (2,HIGH);
-    delay(halfnote);
-    pinMode (2, OUTPUT);
-    digitalWrite (2,LOW);
-    noTone(output); // stop playing
-    delay(100);
-  }
-}
-=======
-}
 // Rosayra code
 for (int i = 0; i < 1; i++)
 {
@@ -1147,7 +996,155 @@ for (int i = 0; i < 1; i++)
 
 }
 }
-// Elena code starts here
 
-
->>>>>>> 39bc5d8a4cb6c66d2745ffbb56d083ac5b0ba445
+  // Elena code starts here
+for (int i = 0; i < 2; i++)
+  {
+    // Measure 1, 2 seconds
+    // G4
+    tone(output, G4);
+    pinMode (2, OUTPUT);
+    digitalWrite (2,HIGH);
+    delay(eighth);
+    pinMode (2, OUTPUT);
+    digitalWrite (2,LOW);
+    noTone(output);
+    delay(100);
+    // E4
+    tone(output, E4);
+    pinMode (4, OUTPUT);
+    digitalWrite (4,HIGH);
+    delay(eighth);
+    pinMode (4, OUTPUT);
+    digitalWrite (4,LOW);
+    noTone(output);
+    delay(100);
+    // G4
+      tone(output, G4);
+    pinMode (2, OUTPUT);
+    digitalWrite (2,HIGH);
+    delay(eighth);
+    pinMode (2, OUTPUT);
+    digitalWrite (2,LOW);
+    noTone(output);
+    delay(100); // stop playing
+  }
+  for (int i = 0; i < 3; i++)
+  {
+    for (int f = 0; f < 6; f++)
+    {
+      // G4
+      tone(output, G4);
+      pinMode (2, OUTPUT);
+      digitalWrite (2,HIGH);
+      delay(sixteenth);
+      pinMode (2, OUTPUT);
+      digitalWrite (2,LOW);
+      noTone(output);
+      delay(100);
+    }
+    // F#4
+    tone(output, F4);
+     pinMode (4, OUTPUT);
+    digitalWrite (4,HIGH);
+    delay(sixteenth);
+     pinMode (4, OUTPUT);
+    digitalWrite (4,LOW);
+    noTone(output); // stop playing
+    delay(100);
+    // F#4
+   tone(output, F4);
+     pinMode (4, OUTPUT);
+    digitalWrite (4,HIGH);
+    delay(sixteenth);
+     pinMode (4, OUTPUT);
+    digitalWrite (4,LOW);
+    noTone(output); // stop playing
+    delay(100);
+  }
+  {
+    // G4
+  tone(output, G4);
+      pinMode (2, OUTPUT);
+      digitalWrite (2,HIGH);
+      delay(sixteenth);
+      pinMode (2, OUTPUT);
+      digitalWrite (2,LOW);
+      noTone(output);
+      delay(100);
+    // G4
+  tone(output, G4);
+      pinMode (2, OUTPUT);
+      digitalWrite (2,HIGH);
+      delay(sixteenth);
+      pinMode (2, OUTPUT);
+      digitalWrite (2,LOW);
+      noTone(output);
+      delay(100);
+    // G4
+ tone(output, G4);
+      pinMode (2, OUTPUT);
+      digitalWrite (2,HIGH);
+      delay(sixteenth);
+      pinMode (2, OUTPUT);
+      digitalWrite (2,LOW);
+      noTone(output);
+      delay(100);
+    // G4
+ tone(output, G4);
+      pinMode (2, OUTPUT);
+      digitalWrite (2,HIGH);
+      delay(sixteenth);
+      pinMode (2, OUTPUT);
+      digitalWrite (2,LOW);
+      noTone(output);
+      delay(100);
+    // F#4
+    tone(output, F4);
+     pinMode (4, OUTPUT);
+    digitalWrite (4,HIGH);
+    delay(sixteenth);
+     pinMode (4, OUTPUT);
+    digitalWrite (4,LOW);
+    noTone(output); // stop playing
+    delay(100);
+    // F#4
+    tone(output, F4);
+     pinMode (4, OUTPUT);
+    digitalWrite (4,HIGH);
+    delay(sixteenth);
+     pinMode (4, OUTPUT);
+    digitalWrite (4,LOW);
+    noTone(output); // stop playing
+    delay(100);
+    // F#4
+   tone(output, F4);
+     pinMode (4, OUTPUT);
+    digitalWrite (4,HIGH);
+    delay(sixteenth);
+     pinMode (4, OUTPUT);
+    digitalWrite (4,LOW);
+    noTone(output); // stop playing
+    delay(100);
+    // F#4
+   tone(output, F4);
+     pinMode (4, OUTPUT);
+    digitalWrite (4,HIGH);
+    delay(sixteenth);
+     pinMode (4, OUTPUT);
+    digitalWrite (4,LOW);
+    noTone(output); // stop playing
+    delay(100);
+    // C4
+    tone(output, C4);
+    pinMode (2, OUTPUT);
+    digitalWrite (2,HIGH);
+    delay(halfnote);
+    pinMode (2, OUTPUT);
+    digitalWrite (2,LOW);
+    noTone(output); // stop playing
+    delay(100);
+  }
+}
+=======
+}
