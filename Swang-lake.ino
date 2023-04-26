@@ -16,11 +16,14 @@ Notes chart:
 
 void setup()
 {
+  int tempo = 1;
   int output = 13;
-  int half = 2000;
-  int eigth = 500;
-  int dotquarter = 1500;
-  int quarter = 1000;
+  int half = 2000/tempo;
+  int eighth = 500/tempo;
+  int dotquarter = 1500/tempo;
+  int quarter = 1000/tempo;
+  int dothalf = 3000/tempo;
+  int sixteenth = 250/tempo;
   int Fs4 = 370;
   int G4 = 392;
   int A4 = 440;
@@ -33,12 +36,39 @@ void setup()
   int F5 = 699;
   int Ds5 = 622;
   int C4 = 262;
-  int noNote = 100;
+  int noNote = 100/tempo;
 }
-
 void loop()
 {
-  // Darlene code here
+  int tempo = 1;
+  int output = 13;
+  int half = 2000/tempo;
+  int eighth = 500/tempo;
+  int dotquarter = 1500/tempo;
+  int quarter = 1000/tempo;
+  int dothalf = 3000/tempo;
+  int sixteenth = 250/tempo;
+  int Fs4 = 370;
+  int G4 = 392;
+  int A4 = 440;
+  int B4 = 494;
+  int C5 = 523;
+  int D5 = 587;
+  int E5 = 659;
+  int Fs5 = 740;
+  int E4 = 330;
+  int F5 = 699;
+  int Ds5 = 622;
+  int C4 = 262;
+  int G5 = 784;
+  int Ef5 = 622;
+  int Ds4 = 311;
+  int noNote = 100/tempo;
+
+  noTone(output);
+  delay(quarter);
+
+    // Darlene code here
 for (int i = 0; i < 1; i++){
     // Measure 1, 2 seconds
     // C4
@@ -55,178 +85,175 @@ for (int i = 0; i < 1; i++){
     // C4
     tone(output, Fs4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, G4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, A4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, B4);    
       delay(dotquarter);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, G4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
     
     tone(output, B4);    
       delay(dotquarter);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, G4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, B4);    
       delay(dotquarter);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, E4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, G4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, E4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, C4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, G4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, E4);    
-      delay(half);  
-    noTone(output)
-      delay(100)
-
+      delay(half);
     tone(output, E4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, A4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, G4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
   
   tone(output, Fs4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, B4);    
       delay(half);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, E4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, Fs4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, G4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, A4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, B4);    
       delay(dotquarter);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, G4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, B4);    
       delay(dotquarter);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
     
     tone(output, G4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, B4);    
       delay(dotquarter);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, E4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, G4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, E4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, C4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, G4);    
       delay(eighth);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, E4);    
       delay(dothalf);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
 
     tone(output, E4);    
       delay(quarter);  
-    noTone(output)
-      delay(100)
+    noTone(output);
+      delay(100);
     // END
     noTone(output); // stop playing
 }
@@ -413,32 +440,6 @@ for (int i = 0; i < 1; i++)
     noTone(output);
       delay(noNote);
 
-      tone(output, F5);   
-      delay(eighth);   
-    noTone(output);
-      delay(noNote);
-
-      tone(output, C5);   
-      delay(eighth);   
-    noTone(output);
-      delay(noNote);
-
-      tone(output, F5);   
-      delay(eighth);   
-    noTone(output);
-      delay(noNote);
-
-      tone(output, E5);   
-      delay(dotquarter);   
-    noTone(output);
-      delay(noNote);
-
-      tone(output, Ds5);   
-      delay(eighth);   
-    noTone(output);
-      delay(noNote);
-
-
 }
  
 // Smruthi code
@@ -463,8 +464,6 @@ for (int i = 0; i < 1; i++)
     noTone(output);
       delay(noNote);
 
-  if (i = 0)
-  {
     tone(output,Ds5);
       delay(eighth);
     noTone(output);
@@ -489,10 +488,27 @@ for (int i = 0; i < 1; i++)
       delay(eighth);
     noTone(output);
       delay(noNote);
-  }
+    
+    tone(output,F5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
 
-  if (i = 1)
-  {
+    tone(output,C5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,F5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,E5);
+      delay(dotquarter);
+    noTone(output);
+      delay(noNote);
+
     tone(output,E5);
       delay(eighth);
     noTone(output);
@@ -522,25 +538,6 @@ for (int i = 0; i < 1; i++)
       delay(eighth);
     noTone(output);
       delay(noNote);
-  }   
-}
-
-  for (int i = 0; i < 1; i++)
-{
-    tone(output,F5);
-      delay(eighth);
-    noTone(output);
-      delay(noNote);
-
-    tone(output,C5);
-      delay(eighth);
-    noTone(output);
-      delay(noNote);
-
-    tone(output,F5);
-      delay(eighth);
-    noTone(output);
-      delay(noNote);
 
     tone(output,F5);
       delay(eighth);
@@ -557,8 +554,21 @@ for (int i = 0; i < 1; i++)
     noTone(output);
       delay(noNote);
 
-  if (i = 0)
-  {
+    tone(output,F5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,C5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,F5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
     tone(output,C5);
       delay(half);
     noTone(output);
@@ -568,10 +578,37 @@ for (int i = 0; i < 1; i++)
       delay(half);
     noTone(output);
       delay(noNote);
-  }
+    
+    tone(output,F5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
 
-  if (i = 1)
-  {
+    tone(output,C5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,F5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,F5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,C5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
+    tone(output,F5);
+      delay(eighth);
+    noTone(output);
+      delay(noNote);
+
     tone(output,Fs5);
       delay(quarter);
     tone(output,F5);
@@ -582,8 +619,7 @@ for (int i = 0; i < 1; i++)
     tone(output,Fs5);
       delay(half);
     noTone(output);
-      delay(noNote);
-  }  
+      delay(noNote); 
 
 }
 
@@ -592,7 +628,7 @@ for (int i = 0; i < 2; i++)
   {
     // Measure 1, 2 seconds
     // G4
-    tone(output, G4);
+    tone(output, G5);
     pinMode (2, OUTPUT);
     digitalWrite (2,HIGH);
     delay(eighth);
@@ -601,7 +637,7 @@ for (int i = 0; i < 2; i++)
     noTone(output);
     delay(100);
     // E4
-    tone(output, E4);
+    tone(output, Ef5);
     pinMode (4, OUTPUT);
     digitalWrite (4,HIGH);
     delay(eighth);
@@ -610,7 +646,7 @@ for (int i = 0; i < 2; i++)
     noTone(output);
     delay(100);
     // G4
-      tone(output, G4);
+      tone(output, G5);
     pinMode (2, OUTPUT);
     digitalWrite (2,HIGH);
     delay(eighth);
@@ -623,8 +659,8 @@ for (int i = 0; i < 2; i++)
   {
     for (int f = 0; f < 6; f++)
     {
-      // G4
-      tone(output, G4);
+      // G5
+      tone(output, G5);
       pinMode (2, OUTPUT);
       digitalWrite (2,HIGH);
       delay(sixteenth);
@@ -633,8 +669,8 @@ for (int i = 0; i < 2; i++)
       noTone(output);
       delay(100);
     }
-    // F#4
-    tone(output, F4);
+    // F#5
+    tone(output, Fs5);
      pinMode (4, OUTPUT);
     digitalWrite (4,HIGH);
     delay(sixteenth);
@@ -642,8 +678,8 @@ for (int i = 0; i < 2; i++)
     digitalWrite (4,LOW);
     noTone(output); // stop playing
     delay(100);
-    // F#4
-   tone(output, F4);
+    // F#5
+   tone(output, Fs5);
      pinMode (4, OUTPUT);
     digitalWrite (4,HIGH);
     delay(sixteenth);
@@ -653,8 +689,8 @@ for (int i = 0; i < 2; i++)
     delay(100);
   }
   {
-    // G4
-  tone(output, G4);
+    // G5
+  tone(output, G5);
       pinMode (2, OUTPUT);
       digitalWrite (2,HIGH);
       delay(sixteenth);
@@ -662,8 +698,8 @@ for (int i = 0; i < 2; i++)
       digitalWrite (2,LOW);
       noTone(output);
       delay(100);
-    // G4
-  tone(output, G4);
+    // G5
+  tone(output, G5);
       pinMode (2, OUTPUT);
       digitalWrite (2,HIGH);
       delay(sixteenth);
@@ -671,8 +707,8 @@ for (int i = 0; i < 2; i++)
       digitalWrite (2,LOW);
       noTone(output);
       delay(100);
-    // G4
- tone(output, G4);
+    // G5
+ tone(output, G5);
       pinMode (2, OUTPUT);
       digitalWrite (2,HIGH);
       delay(sixteenth);
@@ -680,8 +716,8 @@ for (int i = 0; i < 2; i++)
       digitalWrite (2,LOW);
       noTone(output);
       delay(100);
-    // G4
- tone(output, G4);
+    // G5
+ tone(output, G5);
       pinMode (2, OUTPUT);
       digitalWrite (2,HIGH);
       delay(sixteenth);
@@ -689,8 +725,8 @@ for (int i = 0; i < 2; i++)
       digitalWrite (2,LOW);
       noTone(output);
       delay(100);
-    // F#4
-    tone(output, F4);
+    // F#5
+    tone(output, Fs5);
      pinMode (4, OUTPUT);
     digitalWrite (4,HIGH);
     delay(sixteenth);
@@ -698,8 +734,8 @@ for (int i = 0; i < 2; i++)
     digitalWrite (4,LOW);
     noTone(output); // stop playing
     delay(100);
-    // F#4
-    tone(output, F4);
+    // F#5
+    tone(output, Fs5);
      pinMode (4, OUTPUT);
     digitalWrite (4,HIGH);
     delay(sixteenth);
@@ -707,8 +743,8 @@ for (int i = 0; i < 2; i++)
     digitalWrite (4,LOW);
     noTone(output); // stop playing
     delay(100);
-    // F#4
-   tone(output, F4);
+    // F#5
+   tone(output, Fs5);
      pinMode (4, OUTPUT);
     digitalWrite (4,HIGH);
     delay(sixteenth);
@@ -716,8 +752,8 @@ for (int i = 0; i < 2; i++)
     digitalWrite (4,LOW);
     noTone(output); // stop playing
     delay(100);
-    // F#4
-   tone(output, F4);
+    // F#5
+   tone(output, Fs5);
      pinMode (4, OUTPUT);
     digitalWrite (4,HIGH);
     delay(sixteenth);
@@ -726,16 +762,194 @@ for (int i = 0; i < 2; i++)
     noTone(output); // stop playing
     delay(100);
     // C4
-    tone(output, C4);
+    tone(output, B4);
     pinMode (2, OUTPUT);
     digitalWrite (2,HIGH);
-    delay(halfnote);
+    delay(half);
     pinMode (2, OUTPUT);
     digitalWrite (2,LOW);
     noTone(output); // stop playing
     delay(100);
   }
 
+    tone(output, E4);   
+      delay(eighth);   
+    noTone(output);  
+      delay(100);  
+    // Measure 2, 2 seconds
+    // C4
+    tone(output, Fs4);    
+      delay(eighth);  
+    noTone(output);
+      delay(100);
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output);
+      delay(100);
+
+    tone(output, A4);    
+      delay(eighth);  
+    noTone(output);
+      delay(100);
+
+    tone(output, B4);    
+      delay(dotquarter);  
+    noTone(output);
+      delay(100);
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output);
+      delay(100);
+    
+    tone(output, B4);    
+      delay(dotquarter);  
+    noTone(output);
+      delay(100);
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output);
+      delay(100);
+
+    tone(output, B4);    
+      delay(dotquarter);  
+    noTone(output);
+      delay(100);
+
+    tone(output, E4);    
+      delay(eighth);  
+    noTone(output);
+      delay(100);
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output);
+      delay(100);
+
+    tone(output, Ds4);    
+      delay(eighth);  
+    noTone(output);
+      delay(100);
+
+    tone(output, C4);    
+      delay(eighth);  
+    noTone(output);
+      delay(100);
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output);
+      delay(100);
+
+    tone(output, E4);    
+      delay(half);  
+    noTone(output);
+      delay(100);
+  
+    noTone(output);
+      delay(eighth);
+
+    tone(output, A4);    
+      delay(eighth);  
+    noTone(output);
+      delay(100);
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output);
+      delay(100);
+  
+  tone(output, Fs4);    
+      delay(eighth);  
+    noTone(output);
+      delay(100);
+
+    tone(output, B4);    
+      delay(half);  
+    noTone(output);
+      delay(100);
+
+    tone(output, E4);    
+      delay(eighth);  
+    noTone(output);
+      delay(100);
+
+    tone(output, Fs4);    
+      delay(eighth);  
+    noTone(output);
+      delay(100);
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output);
+      delay(100);
+
+    tone(output, A4);    
+      delay(eighth);  
+    noTone(output);
+      delay(100);
+
+    tone(output, B4);    
+      delay(dotquarter);  
+    noTone(output);
+      delay(100);
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output);
+      delay(100);
+
+    tone(output, B4);    
+      delay(dotquarter);  
+    noTone(output);
+      delay(100);
+    
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output);
+      delay(100);
+
+    tone(output, B4);    
+      delay(dotquarter);  
+    noTone(output);
+      delay(100);
+
+    tone(output, E4);    
+      delay(eighth);  
+    noTone(output);
+      delay(100);
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output);
+      delay(100);
+  
+  tone(output, Ds4);    
+      delay(eighth);  
+    noTone(output);
+      delay(100);
+
+    tone(output, C4);    
+      delay(eighth);  
+    noTone(output);
+      delay(100);
+
+    tone(output, G4);    
+      delay(eighth);  
+    noTone(output);
+      delay(100);
+
+    tone(output, E4);    
+      delay(half);
+    tone(output, E4);    
+      delay(half);  
+    noTone(output);
+      delay(100);
+
+    noTone(output);
+      delay(dothalf);      
 }
 
 
